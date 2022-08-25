@@ -1,0 +1,19 @@
+{
+  "name": "Backfill User Data",
+  "id": "something-cool-08kj53",
+  "triggers": [
+    {
+      "event": "retool/backfill.requested"
+    }
+  ],
+  "steps": {
+    "backfill": {
+      "id": "backfill",
+      "name": "Backfill User Data",
+      "runtime": {
+        "type": "docker",
+        "dockerfile": "../../Dockerfile.backfill"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+FROM node:16.15-stretch-slim
+WORKDIR /opt/
+COPY . .
+RUN npm install --production
+ENTRYPOINT ["node", "./functions/backfill-user-data/index.js"]

@@ -1,0 +1,11 @@
+{
+  "name": "inngest-retool-example",
+  "version": "1.0.0",
+  "description": "An example repo for re-using existing code with Inngest in a monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
